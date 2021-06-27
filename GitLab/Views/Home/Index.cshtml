@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var products = (List<ProductModel>)ViewData["products"];
+}
+
+<h3 class="text-center text-success text header">All Products </h3>
+
+<div class="card-columns pb-5">
+
+    @foreach (var product in products)
+    {
+        <div class="card text-center">
+            <img src="@product.Image" class="card-img-top " style="max-width:200px" alt="@product.Name">
+            <div class="card-body">
+                <h5 class="card-title">@product.Name</h5>
+                <button type="button" class="btn btn-outline-success border-success"> Add to cart </button>
+
+            </div>
+        </div>
+
+    }
+
+
+
+</div>
+
+
