@@ -3,4 +3,4 @@
 # Team member :
 * Taif Bin Eid
 * Afra Allahyani
-* Nora Almutiri
+* Nora Almutiri and afra
