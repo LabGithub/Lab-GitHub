@@ -1,4 +1,5 @@
-﻿using GreenLifeStore.Data;
+﻿using GitLab.Models;
+using GreenLifeStore.Data;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,29 @@ namespace GitLab.Controllers
             ViewData["Product"] = Product;
             return View(Product);
 
+        }
+
+        //GET- /products/edit/id
+        public IActionResult Edit(int? id)
+        {
+            var Product = _db.Products.ToList().Find(p => p.ProductId == id);
+            if (id == null || Product == null)
+            {
+                return View("_NotFound");
+            }
+            ViewData["Product"] = Product;
+            return View();
+        }
+        //POST - /products/edit/id
+        [HttpPost]
+        public IActionResult Edit(int id, [Bind("ProductId", "Name", "Price")] ProductModel product)
+        {
+            var Product = _db.Products.ToList().Find(p => p.ProductId == id);
+            Product.Name = product.Name;
+            Product.Price = product.Price;
+            _db.Products.Update(Product);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
     }
