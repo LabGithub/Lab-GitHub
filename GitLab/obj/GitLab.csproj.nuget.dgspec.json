@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Norah\\source\\repos\\GitLab\\GitLab\\GitLab.csproj": {}
+    "C:\\Users\\taef_\\Desktop\\Lab-GitHub\\GitLab\\GitLab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Norah\\source\\repos\\GitLab\\GitLab\\GitLab.csproj": {
+    "C:\\Users\\taef_\\Desktop\\Lab-GitHub\\GitLab\\GitLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Norah\\source\\repos\\GitLab\\GitLab\\GitLab.csproj",
+        "projectUniqueName": "C:\\Users\\taef_\\Desktop\\Lab-GitHub\\GitLab\\GitLab.csproj",
         "projectName": "GitLab",
-        "projectPath": "C:\\Users\\Norah\\source\\repos\\GitLab\\GitLab\\GitLab.csproj",
-        "packagesPath": "C:\\Users\\Norah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Norah\\source\\repos\\GitLab\\GitLab\\obj\\",
+        "projectPath": "C:\\Users\\taef_\\Desktop\\Lab-GitHub\\GitLab\\GitLab.csproj",
+        "packagesPath": "C:\\Users\\taef_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taef_\\Desktop\\Lab-GitHub\\GitLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Norah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\taef_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
