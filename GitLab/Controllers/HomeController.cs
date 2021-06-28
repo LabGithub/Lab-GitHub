@@ -20,7 +20,8 @@ namespace GitLab.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            string a = "Hello world !";
+            return View(a);
         }
 
         public IActionResult Privacy()
